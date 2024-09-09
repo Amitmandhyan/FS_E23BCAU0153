@@ -1,0 +1,140 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://inspirage.com/wp-content/uploads/2016/09/iStock-1023224308.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+.calculator-section {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #fff;
+}
+
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ddd;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #444;
+    color: #fff;
+}
+
+button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e55342;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#bmi-value {
+    font-size: 28px;
+    color: #ff6347;
+}
+
+#bmi-category {
+    font-size: 18px;
+    color: #ddd;
+}
+
+
+.body-shape {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-image {
+    width: 200px;
+    height: auto;
+    display: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.visible {
+    display: block;
+}
+
+
+
+
+
+.navbar {
+    background: linear-gradient(90deg, #ff6347, #e55342);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-title {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navbar-title:hover {
+    color: #fffbea;
+}
+
+
+.container {
+    margin-top: 80px;
+}

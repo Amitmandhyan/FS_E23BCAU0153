@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="navbar-title">BMI Calculator</h1>
+    </div>
+
+    <div class="container">
+        <div class="calculator-section">
+            <h1>Calculate Your BMI</h1>
+            <div class="input-group">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" placeholder="Enter your weight">
+            </div>
+            <div class="input-group">
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" placeholder="Enter your height">
+            </div>
+            <button onclick="calculateBMI()">Calculate BMI</button>
+
+            <div id="result">
+                <p id="bmi-value"></p>
+                <p id="bmi-category"></p>
+            </div>
+        </div>
+
+        <div class="body-shape">
+            <img src="https://www.planetayurveda.com/pa-wp-images/underweight.jpg" id="underweight-img" class="body-image" alt="Underweight Body Shape">
+            <img src="https://pbs.twimg.com/media/EpyJbvsXYAAj89l.jpg" id="normal-img" class="body-image" alt="Normal Body Shape">
+            <img src="https://png.pngtree.com/png-vector/20230808/ourmid/pngtree-childhood-obesity-vector-png-image_6950597.png" id="overweight-img" class="body-image" alt="Overweight Body Shape">
+            <img src="https://cdn.britannica.com/36/189336-050-8D1DAA2C/Obesity-body-fat-accumulation-conditions.jpg" id="obesity-img" class="body-image" alt="Obesity Body Shape">
+        </div>
+    </div>
+    
+    <div class="navbar">
+        <h1 class="navbar-title">BMI Calculator</h1>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
